@@ -1,22 +1,111 @@
-nav{
+body {
+    margin: 0;
+    background-color: #F8F5F1
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: aqua; */
 }
-nav li{
+
+nav li {
     list-style: none;
     padding: 10px;
+
 }
-nav a{
+
+nav a {
     text-decoration: none;
+    color: black;
 }
+
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
     float: right;
     padding: 6px;
     border: none;
     font-size: 17px;
-  }
-  #itemsNav{
+}
+
+#itemsNav {
     display: flex;
-  }
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: initial;
+}
+
+h3 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+img {
+    padding-left: 200px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100;
+    height: 100;
+
+
+}
+
+p {
+    text-align: center;
+}
+
+.favoris {
+    display: flex;
+    margin: 5%;
+    background-color: #FAEBE0;
+}
+
+.menu {
+    display: flex;
+    margin: 5%;
+    background-color: #FAEBE0
+}
+
+.fit {
+    text-align: center;
+    background-color: #FAEBE0;
+}
+
+#boutique {
+    background-image: url("../res/bg_home.jpg");
+    /* Full height */
+    height: 90vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#boutique div {
+    text-align: center;
+    position: relative;
+    top:370px;
+    left: 300px;
+    width: 80%;
+    
+}
+#boutique div p{
+    font-size: 28px;
+}
+#boutique div h1{
+    font-size: 32px;
+}
+a:hover{
+    color: #905858;
+    font-weight: 800;
+}
