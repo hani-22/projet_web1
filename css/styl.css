@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+  }
+  #itemsNav{
+    display: flex;
+  }
